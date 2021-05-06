@@ -52,10 +52,10 @@ while True :
                 winsound.PlaySound("SystemQuestion", winsound.SND_ALIAS)
                 winsound.Beep(1000,500)
     conn.close()
-    time.sleep(10)
     end_t = datetime.now()
     print("************ End Time "+str(end_t) + "  time taken:" + str(end_t-start_t))
     print()
+    time.sleep(10)
 print("--------------------End----------------------------")
 
 
